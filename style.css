@@ -12,6 +12,11 @@
 body{
     margin: 0px;
     background-color: #41B3A3;
+    background-image: radial-gradient(
+        #85DCBA 3px,
+        transparent 3px
+    );
+    background-size: 30px 30px;
 }
 .grid{
     display: flex;
@@ -25,7 +30,7 @@ body{
 .origami{
     border-radius: 20px;
     background-color: #85DCBA;
-background-image: linear-gradient(315deg, #7fd7c7 0%, #85DCBA 50%, #7fe9d7 50%);
+    background-image: linear-gradient(315deg, #7fd7c7 0%, #85DCBA 50%, #7fe9d7 50%);
     padding: 30px;
     margin : 25px;
     width: 310px;
@@ -38,7 +43,8 @@ background-image: linear-gradient(315deg, #7fd7c7 0%, #85DCBA 50%, #7fe9d7 50%);
     border-radius: 30px;
     margin: 5ch;
     padding: 5ch;
-    background-color: #C38D9E;
+    background-color: #C38D9E;  
+    background-image: linear-gradient(315deg, #ffafbd 50%, #ffc3a0);
 }
 .info{
     font-size: 20px;
