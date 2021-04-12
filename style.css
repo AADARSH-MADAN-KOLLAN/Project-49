@@ -162,11 +162,6 @@ body{
 
 .menu-wrap .menu > div {
   background: rgba(65,179,163);
-  background-image: radial-gradient(
-        #85DCBA 3px,
-        transparent 3px
-    );
-    background-size: 30px 30px;
   border-radius: 50%;
   width: 200vw;
   height: 200vw;
