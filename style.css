@@ -39,7 +39,7 @@ body{
 .origami{
     border-radius: 20px;
     background-color: #85DCBA;
-    background-image: linear-gradient(315deg, #7fd7c7 0%, #85DCBA 0%, #7fe9d7 80%);
+    background-image: linear-gradient(315deg, #7fd7c7 0%, #60ddad 0%, #7fe9d7 80%);
     padding: 30px;
     margin :30px;
     width: 310px;
@@ -193,11 +193,22 @@ body{
   text-decoration: none;
   transition: color 0.4s ease;
 }
+.origami{
+  transition: all 0.5s ease;
+}
 
 .origami:hover{
   transform: scale(1.05);
-  transition: ease 0.5s;
 }
 html{
   zoom:110%;
+}
+.origami h3, .origami p{
+  padding-top: 5px;
+}
+.a2{
+  transition: all 0.5s ease;
+}
+.a2:hover{
+  transform: scale(1.1);
 }
